@@ -1,0 +1,112 @@
+.card{
+  background-color: #ffff;
+  width: 475px;
+  height: 550px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
+  box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+.card h2{
+  color: #000;
+  font-size: 22px;
+  font-family: Montserrat;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0px;
+  margin-bottom: 8px;
+  font-size: 22px;
+}
+
+.card h3{
+  color: #6C6C6C;
+  font-size: 14px;
+  font-family: Montserrat;
+  margin: 0px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.card-content{
+  margin: 32px;
+}
+
+.card-header{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-content{
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content-input{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.content-input label{
+  font-size: 14px;
+  font-weight: 500;
+  color: #6C6C6C;;
+}
+
+.content-input input{
+  border-radius: 4px;
+  border: 1px solid #E5E5E5;
+  height: 44px;
+  padding-left: 16px;
+  outline: none;
+}
+
+.content-input input::placeholder{
+  color: #CDCDCD;
+}
+
+.content-input input:focus{
+  border-color: #ffd119;
+}
+
+.form-content button{
+  height: 44px;
+  background-color: #FEAF00;
+  border: none;
+  border-radius: 4px;
+  color: #ffff;
+  cursor: pointer;
+}
+
+.btns-login{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.btns-login button{
+  width: 100%;
+}
+
+.btns-login button:hover{
+  background-color: #ffcd62;
+}
+
+.btns-login a{
+  color: #FEAF00;
+}
+
+.btns-login a:hover{
+  border-bottom: #FEAF00 1px solid;
+}

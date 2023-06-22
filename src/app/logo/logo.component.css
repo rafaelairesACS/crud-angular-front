@@ -1,0 +1,15 @@
+.header-container{
+  border-left: 7px solid #F8D442;
+  margin-bottom: 38px;
+  margin-top: 10px;
+}
+
+.header-container h1{
+  color: #000;
+  font-size: 32px;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin: 0px;
+  padding-left: 10px;
+  font-size: 32px;
+}
