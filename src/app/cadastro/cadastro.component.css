@@ -97,3 +97,8 @@ form{
 .btns-form .back{
   background-color: #bbb3a9;
 }
+
+.error-msg{
+  font-size: 13px;
+  color: red;
+}
